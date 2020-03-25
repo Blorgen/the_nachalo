@@ -21,4 +21,3 @@ def ceaser(text,number,code):
             else:result += alphabet[(alphabet.find(letter) - number) % len(alphabet)]
     return result
 
-print(ceaser('Krz duh brx, pdq',3,'decrypt'))
